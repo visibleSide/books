@@ -1,0 +1,10 @@
+<!-- templates/profile.html -->
+
+{% extends "base.html" %}
+{% block title %} Profile {% endblock%}
+{% block content %}
+<h1 class="title">
+    <h1 class="title">Welcome {{ username[0]|upper }}{{ username[1:] }}</h1>
+    <h2 class="subtitle"> This is your profile, changes are comming to it</h2>
+</h1>
+{% endblock %}
